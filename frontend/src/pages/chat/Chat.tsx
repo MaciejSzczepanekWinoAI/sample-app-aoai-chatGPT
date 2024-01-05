@@ -560,9 +560,9 @@ const Chat = () => {
             {showAuthMessage ? (
                 <Stack className={styles.chatEmptyState}>
                     <ShieldLockRegular className={styles.chatIcon} style={{color: 'darkorange', height: "200px", width: "200px"}}/>
-                    <h1 className={styles.chatEmptyStateTitle}>Authentication Not Configured</h1>
+                    <h1 className={styles.chatEmptyStateTitle}>MACIEK Authentication Not Configured</h1>
                     <h2 className={styles.chatEmptyStateSubtitle}>
-                        This app does not have authentication configured. Please add an identity provider by finding your app in the 
+                        MACIEK This app does not have authentication configured. Please add an identity provider by finding your app in the 
                         <a href="https://portal.azure.com/" target="_blank"> Azure Portal </a>
                         and following 
                          <a href="https://learn.microsoft.com/en-us/azure/app-service/scenario-secure-app-authentication-app-service#3-configure-authentication-and-authorization" target="_blank"> these instructions</a>.
