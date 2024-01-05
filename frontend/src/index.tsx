@@ -10,7 +10,7 @@ import NoPage from "./pages/NoPage";
 import Chat from "./pages/chat/Chat";
 import { AppStateProvider } from "./state/AppProvider";
 
-initializeIcons();
+//initializeIcons();
 
 export default function App() {
     return (
